@@ -1,3 +1,3 @@
 fn main() {
-    println!("pivot to rust");
+    println!("idite nahui");
 }
