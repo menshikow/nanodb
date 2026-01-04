@@ -1,23 +1,71 @@
-*.o
+# --- Build Directories ---
+build/
+bin/
+lib/
+cmake-build-*/
+out/
+
+# --- CMake Artifacts ---
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+install_manifest.txt
+Makefile
+*.ninja
+compile_commands.json
+
+# --- Compiled Binaries & Libraries ---
 *.a
 *.so
-db
-main
+*.dylib
+*.dll
+*.exe
+*.out
+*.app
+# specific binary names if generated in root
+db_shell
+db_test
 
+# --- Database Data Files (Crucial) ---
+# Prevent committing the actual DBs you create
+*.db
+*.sqlite
+*.wal
+*.log
+data/
+/wal.log
+
+# --- IDE & Editor Configs ---
+# VS Code
+.vscode/*
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/tasks.json
+*.code-workspace
+
+# CLion / IntelliJ
+.idea/
+cmake-build-debug/
+cmake-build-release/
+
+# Vim / Emacs
+*~
 *.swp
 *.swo
-.vscode/
-.idea/
+\#*\#
 
+# --- OS Files ---
 .DS_Store
+.DS_Store?
+._*
+.Trashes
+ehthumbs.db
+Thumbs.db
 
-data/
-*.db
-
+# --- Testing & Coverage ---
+*.gcno
+*.gcda
+*.gcov
+coverage.info
+test_results/
 TODO.md
-
-
-
-# Added by cargo
-
-/target
