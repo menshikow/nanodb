@@ -1,11 +1,9 @@
-# --- Build Directories ---
 build/
 bin/
 lib/
 cmake-build-*/
 out/
 
-# --- CMake Artifacts ---
 CMakeCache.txt
 CMakeFiles/
 cmake_install.cmake
@@ -14,7 +12,6 @@ Makefile
 *.ninja
 compile_commands.json
 
-# --- Compiled Binaries & Libraries ---
 *.a
 *.so
 *.dylib
@@ -22,12 +19,9 @@ compile_commands.json
 *.exe
 *.out
 *.app
-# specific binary names if generated in root
 db_shell
 db_test
 
-# --- Database Data Files (Crucial) ---
-# Prevent committing the actual DBs you create
 *.db
 *.sqlite
 *.wal
@@ -35,26 +29,21 @@ db_test
 data/
 /wal.log
 
-# --- IDE & Editor Configs ---
-# VS Code
 .vscode/*
 !.vscode/extensions.json
 !.vscode/launch.json
 !.vscode/tasks.json
 *.code-workspace
 
-# CLion / IntelliJ
 .idea/
 cmake-build-debug/
 cmake-build-release/
 
-# Vim / Emacs
 *~
 *.swp
 *.swo
 \#*\#
 
-# --- OS Files ---
 .DS_Store
 .DS_Store?
 ._*
@@ -62,7 +51,6 @@ cmake-build-release/
 ehthumbs.db
 Thumbs.db
 
-# --- Testing & Coverage ---
 *.gcno
 *.gcda
 *.gcov
