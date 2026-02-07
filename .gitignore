@@ -1,8 +1,11 @@
+# ===== Build artifacts =====
 build/
 bin/
 lib/
-cmake-build-*/
 out/
+cmake-build-*/
+cmake-build-debug/
+cmake-build-release/
 
 CMakeCache.txt
 CMakeFiles/
@@ -12,6 +15,7 @@ Makefile
 *.ninja
 compile_commands.json
 
+# ===== Compiled binaries & libs =====
 *.a
 *.so
 *.dylib
@@ -19,16 +23,19 @@ compile_commands.json
 *.exe
 *.out
 *.app
+
 db_shell
 db_test
 
+# ===== Runtime data (DB artifacts) =====
 *.db
 *.sqlite
 *.wal
 *.log
 data/
-/wal.log
+wal.log
 
+# ===== Editors / IDEs =====
 .vscode/*
 !.vscode/extensions.json
 !.vscode/launch.json
@@ -36,14 +43,8 @@ data/
 *.code-workspace
 
 .idea/
-cmake-build-debug/
-cmake-build-release/
 
-*~
-*.swp
-*.swo
-\#*\#
-
+# ===== OS junk =====
 .DS_Store
 .DS_Store?
 ._*
@@ -51,9 +52,18 @@ cmake-build-release/
 ehthumbs.db
 Thumbs.db
 
+# ===== Coverage / profiling =====
 *.gcno
 *.gcda
 *.gcov
 coverage.info
 test_results/
+
+# ===== Temp / backups =====
+*~
+*.swp
+*.swo
+\#*\#
+
+# ===== Project-local notes =====
 TODO.md
