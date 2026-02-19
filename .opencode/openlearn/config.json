@@ -1,0 +1,34 @@
+{
+  "version": "1.0.0",
+  "initialized_at": null,
+  "profile": {
+    "type": "junior",
+    "configured_at": null,
+    "settings": {
+      "background": "coding-basics",
+      "design_involvement": true,
+      "analogies": {
+        "enabled": false,
+        "source": null
+      }
+    }
+  },
+  "context7": {
+    "mode": "auto",
+    "enabled": true
+  },
+  "project": {
+    "name": null,
+    "current_phase": null,
+    "initialized": false
+  },
+  "learning_goals": {
+    "topics_encountered": [],
+    "current_objectives": []
+  },
+  "stats": {
+    "tasks_completed": 0,
+    "gates_passed": 0,
+    "learnings_captured": 0
+  }
+}
