@@ -186,5 +186,5 @@ Updating spec...
 2. Refactor handleSubmit function
 3. Consider adding tests
 
-Next: Continue with next task or `/openlearn-feature` for new feature
+Next: Continue with next task or `/openlearn-task` for new task
 ```

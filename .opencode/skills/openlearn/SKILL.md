@@ -17,14 +17,14 @@ opencode skill add openlearn
 ## Quick Start
 
 1. **Initialize**: `/openlearn-init`
-2. **Plan feature**: `/openlearn-feature`
+2. **Plan task**: `/openlearn-task`
 3. **Get guidance**: `/openlearn-guide`
 4. **Complete**: `/openlearn-done`
 
 ## Commands
 
 - `/openlearn-init` - Initialize project
-- `/openlearn-feature` - Create feature specs
+- `/openlearn-task` - Create task specs
 - `/openlearn-guide` - Get implementation guidance
 - `/openlearn-stuck` - Debug systematically
 - `/openlearn-test` - Test guidance

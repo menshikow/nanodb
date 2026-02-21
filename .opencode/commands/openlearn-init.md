@@ -53,7 +53,7 @@ Initialize a new OpenLearn project with profile setup, project definition, and c
 
 7. **Confirm success**
    - Show summary of what was created
-   - Next step: `/openlearn-feature`
+   - Next step: `/openlearn-task`
 
 ## Example Session
 
@@ -94,5 +94,5 @@ Created:
 - roadmap.md
 - Updated AGENTS.md
 
-Next: /openlearn-feature to plan your first feature
+Next: /openlearn-task to plan your first task
 ```
