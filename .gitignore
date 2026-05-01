@@ -1,52 +1,6 @@
-# Go build outputs
-/bin/
-/build/
-/dist/
-/out/
+build/
+cmake-build-*/
+compile_commands.json
+*.o
+*.obj
 *.exe
-*.exe~
-*.dll
-*.so
-*.dylib
-*.test
-*.out
-
-# Go coverage / profiling
-coverage.out
-coverage.html
-*.coverprofile
-cpu.prof
-mem.prof
-trace.out
-
-# Go workspace (local multi-module setups)
-go.work
-go.work.sum
-
-# Logs
-*.log
-
-# OS files
-.DS_Store
-Thumbs.db
-
-# Editors / IDEs
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# Environment / local config
-.env
-.env.local
-
-# Temporary files
-tmp/
-temp/
-
-# Database project specific (you will want this)
-data/
-*.wal
-*.sst
-MANIFEST
-LOCK
